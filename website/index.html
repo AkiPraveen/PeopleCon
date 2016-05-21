@@ -3,22 +3,30 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+  <title>PeopleCon</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/animate.min.css" type="text/css" rel="stylesheet" />
+
+  <!-- JS -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
 </head>
 <body>
-  <nav class="orange" role="navigation">
+  <nav class="teal" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">PeopleCon</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="http://www.github.com/AkiPraveen">GitHub @ AkiPraveen</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="http://www.github.com/AkiPraveen">GitHub @ AkiPraveen</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -31,19 +39,60 @@
       <div id="inject_here">
 
       <!-- TEST CARD -->
-        <div class="card">
+        <div class="wow card animated zoomIn">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="images/test.jpg">
+            <img class="activator" src="images/night.jpg">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-            <p><a href="#">This is a link</a></p>
+            <span class="card-title activator grey-text text-darken-4">$PERSON_NAME<i class="material-icons right">more_vert</i></span>
+            <p>has found $NUM new friends! </p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <span class="card-title grey-text text-darken-4">$PERSON_NAME<i class="material-icons right">close</i></span>
+            <p>$PERSON_NAME was with $NUM people that they met near $LOCATION.</p>
+            <br />
+            <p>$TIME</p>
           </div>
         </div>
+      <!-- END CARD -->
+
+      <!-- TEST CARD -->
+        <div class="wow card animated zoomIn">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/night.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">$PERSON_NAME<i class="material-icons right">more_vert</i></span>
+            <p>has found $NUM new friends! </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">$PERSON_NAME<i class="material-icons right">close</i></span>
+            <p>$PERSON_NAME was with $NUM people that they met near $LOCATION.</p>
+            <br />
+            <p>$TIME</p>
+          </div>
+        </div>
+      <!-- END CARD -->
+
+      <!-- TEST CARD -->
+        <div class="wow card animated zoomIn">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/night.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">$PERSON_NAME<i class="material-icons right">more_vert</i></span>
+            <p>has found $NUM new friends! </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">$PERSON_NAME<i class="material-icons right">close</i></span>
+            <p>$PERSON_NAME was with $NUM people that they met near $LOCATION.</p>
+            <br />
+            <p>$TIME</p>
+          </div>
+        </div>
+      <!-- END CARD -->
+
+      
 
 
 
@@ -60,7 +109,7 @@
     </div>
   </div>
 
-  <footer class="page-footer orange">
+  <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
